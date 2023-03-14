@@ -1,0 +1,34 @@
+{
+  "name": "automatyzacja-belini",
+  "version": "1.0.0",
+  "description": "Automatyzacja Belini",
+  "main": "index.js",
+  "scripts": {
+    "wdio": "wdio wdio.conf.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Madzial/Automatyzacja-Belini.git"
+  },
+  "author": "Maciej Madziała",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Madzial/Automatyzacja-Belini/issues"
+  },
+  "homepage": "https://github.com/Madzial/Automatyzacja-Belini#readme",
+  "dependencies": {
+    "-": "^0.0.1",
+    "@wdio/cli": "^8.5.1",
+    "save-dev": "^0.0.1-security"
+  },
+  "devDependencies": {
+    "@wdio/local-runner": "^8.5.1",
+    "@wdio/mocha-framework": "^8.4.0",
+    "@wdio/spec-reporter": "^8.4.0",
+    "chromedriver": "^110.0.0",
+    "ts-node": "^10.9.1",
+    "typescipt": "^1.0.0",
+    "typescript": "^4.9.5",
+    "wdio-chromedriver-service": "^8.1.1"
+  }
+}
