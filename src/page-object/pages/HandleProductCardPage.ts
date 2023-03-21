@@ -1,7 +1,7 @@
 class HandleProductCardPage {
 
     get addToCartBtn() {
-        return $("button[data-pid='61955']")
+        return $("button[data-evt='add_to_cart_gtm']")
     }
 
     get goToCheckoutBtn() {
@@ -9,13 +9,13 @@ class HandleProductCardPage {
     }
 
     async clickOnAddToCartBtn() {
-        const btn: WebdriverIO.Element = this.addToCartBtn;
+        const btn: WebdriverIO.Element = await this.addToCartBtn;
         await btn.waitForClickable()
         await btn.click()
     }
 
     async clickOnGoToCheckoutBtn() {
-        const btn: WebdriverIO.Element = this.goToCheckoutBtn;
+        const btn: WebdriverIO.Element = await this.goToCheckoutBtn;
         await btn.waitForDisplayed()
         await btn.waitForClickable()
         await btn.click()

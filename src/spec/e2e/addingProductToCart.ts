@@ -27,6 +27,6 @@ describe("Verification of adding the product to the cart", async () => {
     })
     
     it("Should verify that the product is in the basket", async () => {
-        await (CartPage.productInCart).waitForDisplayed()
+        await expect(CartPage.productInCart).toBeDisplayed()
     })
 })

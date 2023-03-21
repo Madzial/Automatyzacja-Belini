@@ -5,7 +5,7 @@ class FurnitureAccessoriesPage {
     }
 
     async clickOnFirstProductBtn() {
-        const btn: WebdriverIO.Element = this.firstProductBtn;
+        const btn: WebdriverIO.Element = await this.firstProductBtn;
         await btn.waitForDisplayed()
         await btn.click()
     }

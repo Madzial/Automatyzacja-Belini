@@ -38,6 +38,14 @@ export const config = {
     exclude: [
         // 'path/to/excluded/files'
     ],
+
+    suites: {
+        
+        verify: [
+            "./src/spec/e2e/addingSetOfProductsToCart.ts"
+        ]
+
+    },
     //
     // ============
     // Capabilities

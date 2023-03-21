@@ -4,7 +4,8 @@
   "description": "Automatyzacja Belini",
   "main": "index.js",
   "scripts": {
-    "wdio": "wdio wdio.conf.ts"
+    "e2e": "wdio wdio.conf.ts",
+    "test-verify": "wdio wdio.conf.ts --suite verify"
   },
   "repository": {
     "type": "git",
