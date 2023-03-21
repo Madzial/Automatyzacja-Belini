@@ -1,1 +1,6 @@
 export const homeUrl:string = "https://belini.pl/"
+export const furnitureAccessoriesUrl:string = "https://belini.pl/produkty/akcesoria-meblowe/"
+export const handleProductCardUrl:string = "https://belini.pl/produkt/uchwyt-rt-192-f-sat-reling/"
+export const cartPageUrl:string = "https://belini.pl/koszyk/"
+export const bedroomfurnituresUrl:string = "https://belini.pl/produkty/meble-do-sypialni/"
+export const wardrobeProductUrl:string = "https://belini.pl/produkt/szafa-przesuwna-z-lustrem-235-cm-szara-antracyt-grafitowa-mat-producent/"

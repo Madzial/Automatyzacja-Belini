@@ -12,7 +12,7 @@
         "target": "ES2019"
     },
     "include": [
-        "./src/spec/**/*.ts",
+        "./src/**/*.ts",
         "./wdio.conf.ts"
     ]
 }
